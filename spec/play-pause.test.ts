@@ -8,7 +8,6 @@ describe("play-pause", () => {
     let player = new Player(false, new Playlist(tracks));
 
     allure.step("init player", () => {
-     
       player = new Player(false, new Playlist(tracks));
       const firstTrack = tracks[0].name;
       expect(player.currentSong?.name).toBe(firstTrack);
@@ -18,7 +17,7 @@ describe("play-pause", () => {
     allure.step("play", () => {
       expect(player.isPlaying).toBeFalsy();
       allure.logStep(`expect player to not play`, Status.PASSED);
-      player.play()
+      player.play();
       expect(player.isPlaying).toBeTruthy();
       allure.logStep(`expect player to play`, Status.PASSED);
     });

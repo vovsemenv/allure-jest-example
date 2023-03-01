@@ -13,5 +13,6 @@
       "skipLibCheck": true,
       "types":["jest"],
     },
-    "files": ["global.d.ts"]
+    "files": ["global.d.ts"],
+    "include": ["src"]
   }
