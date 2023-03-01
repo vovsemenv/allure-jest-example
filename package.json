@@ -26,7 +26,8 @@
   },
   "dependencies": {
     "@types/node": "^16.11.56",
-    "allure-jasmine": "^2.0.0-beta.19",
-    "allure-js-commons": "2.0.0-beta.19"
+    "allure-jasmine": "^2.0.0",
+    "allure-js-commons": "2.0.0",
+    "typescript": "^4.9.5"
   }
 }
